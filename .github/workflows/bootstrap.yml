@@ -1,0 +1,35 @@
+name: Bootstrap full skill source
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'install_listed_equity_research.py'
+      - '.github/workflows/bootstrap.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  unpack:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Extract and verify bundled skill
+        run: |
+          mkdir -p "$RUNNER_TEMP/skill-root"
+          python install_listed_equity_research.py --root "$RUNNER_TEMP/skill-root"
+          cp -a "$RUNNER_TEMP/skill-root/listed-equity-research" .
+          python listed-equity-research/scripts/verify_install.py listed-equity-research
+      - name: Publish extracted source files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add listed-equity-research/
+          if ! git diff --cached --quiet; then
+            git commit -m "feat: publish complete audited listed-equity-research skill source"
+            git push
+          fi
