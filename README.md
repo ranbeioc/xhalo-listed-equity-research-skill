@@ -156,4 +156,4 @@ xhalo-listed-equity-research-skill/
 
 ## License
 
-[MIT License](LICENSE) · Copyright © 2026 XHalo contributors.
+[MIT License](LICENSE) · Copyright © 2026 Skyfire (see LICENSE).
