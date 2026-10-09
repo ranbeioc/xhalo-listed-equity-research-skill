@@ -1,0 +1,13 @@
+[
+  {
+    "id": "revenue-trend",
+    "type": "line",
+    "title": "营业收入趋势（历史与预测须用不同图例标明）",
+    "metric_ids": ["M001", "M002", "M003"],
+    "series_key": "metric",
+    "unit": "人民币亿元",
+    "source_ids": ["S001", "S002"],
+    "data_cutoff": "YYYY-MM-DD",
+    "note": "M001–M003和S001–S002都是待替换占位符；请填入核实来源，不得直接执行作为真实报告。"
+  }
+]

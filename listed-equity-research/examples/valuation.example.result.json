@@ -1,0 +1,65 @@
+{
+  "label": "ILLUSTRATIVE ONLY — FICTIONAL COMPANY, NOT INVESTMENT DATA",
+  "method": "FCFF SOTP using year-end discounting",
+  "valuation_currency": "CNY",
+  "share_currency": "HKD",
+  "fx_quote_per_report": 1.17,
+  "diluted_shares_hundred_million": 100.0,
+  "value_unit": "hundred million reporting currency",
+  "segments": [
+    {
+      "segment": "Core illustrative",
+      "wacc": 0.11,
+      "terminal_g": 0.02,
+      "years": 5,
+      "pv_explicit_fcff": 168.644705,
+      "terminal_value_at_year_n": 646.0,
+      "pv_terminal": 383.369558,
+      "enterprise_value": 552.014263,
+      "terminal_fraction_of_segment_ev": 0.6945
+    },
+    {
+      "segment": "New businesses illustrative",
+      "wacc": 0.15,
+      "terminal_g": 0.02,
+      "years": 5,
+      "pv_explicit_fcff": 5.731307,
+      "terminal_value_at_year_n": 86.307692,
+      "pv_terminal": 42.910177,
+      "enterprise_value": 48.641484,
+      "terminal_fraction_of_segment_ev": 0.8822
+    },
+    {
+      "segment": "Corporate costs illustrative",
+      "wacc": 0.11,
+      "terminal_g": 0.0,
+      "years": 5,
+      "pv_explicit_fcff": -18.479485,
+      "terminal_value_at_year_n": -45.454545,
+      "pv_terminal": -26.97506,
+      "enterprise_value": -45.454545,
+      "terminal_fraction_of_segment_ev": null
+    }
+  ],
+  "enterprise_value": 555.201201,
+  "bridge_sign_adjusted": {
+    "excess_cash": 120.0,
+    "financial_investments_after_tax": 50.0,
+    "interest_bearing_debt": -70.0,
+    "lease_liabilities": -20.0,
+    "minority_interest": -0.0,
+    "other_net_adjustments": 0.0
+  },
+  "equity_value": 635.201201,
+  "per_share_value_quote_currency": 7.431854,
+  "aggregate_terminal_fraction": 0.7192,
+  "status": "screen-grade",
+  "warnings": [
+    "Core illustrative: terminal share of PV 69.4% > 60%; stress ROIC/reinvestment",
+    "New businesses illustrative: terminal share of PV 88.2% > 60%; stress ROIC/reinvestment",
+    "Corporate costs illustrative: negative terminal FCFF requires special finite-horizon justification",
+    "Bridge double-counting has NOT been independently reviewed",
+    "Illustrative example, not a real company valuation"
+  ],
+  "important": "Mathematics only. Source authenticity, forecasts, inflation/currency, ROIC, taxes, leases and SBC require analyst audit."
+}

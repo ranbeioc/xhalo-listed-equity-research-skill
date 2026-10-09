@@ -1,0 +1,26 @@
+{
+  "label": "ILLUSTRATIVE ONLY — FICTIONAL COMPANY, NOT INVESTMENT DATA",
+  "as_of": "2026-01-01",
+  "report_currency": "CNY",
+  "quote_currency": "HKD",
+  "fx_quote_per_report": 1.17,
+  "diluted_shares": 100.0,
+  "share_unit": "hundred_million_shares",
+  "value_unit": "hundred_million_report_currency",
+  "bridge": {
+    "excess_cash": 120.0,
+    "financial_investments_after_tax": 50.0,
+    "interest_bearing_debt": 70.0,
+    "lease_liabilities": 20.0,
+    "minority_interest": 0.0,
+    "other_net_adjustments": 0.0
+  },
+  "segments": [
+    {"name": "Core illustrative", "wacc": 0.11, "terminal_g": 0.02, "fcff": [35, 41, 48, 53, 57]},
+    {"name": "New businesses illustrative", "wacc": 0.15, "terminal_g": 0.02, "fcff": [-7, -2, 5, 8, 11]},
+    {"name": "Corporate costs illustrative", "wacc": 0.11, "terminal_g": 0.00, "fcff": [-5, -5, -5, -5, -5]}
+  ],
+  "double_counting_reviewed": false,
+  "sbc_method": "economic_cost_in_fcff",
+  "remarks": "Demo values are arbitrary. Replace with dated source-ledger-backed projections, then reconcile SBC/share/lease/tax conventions."
+}

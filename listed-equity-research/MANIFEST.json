@@ -1,0 +1,151 @@
+{
+  "name": "listed-equity-research",
+  "version": "1.0.1",
+  "files": [
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "0f113b4610129a5cb36541d14cf869ad4a889537e6c568abe2768933a538dec4",
+      "bytes": 1121
+    },
+    {
+      "path": "INSTALL.md",
+      "sha256": "15246c36f434d8269589b567c2aeb0cb3b8171e2fc3b181c73fd304895507e3a",
+      "bytes": 3467
+    },
+    {
+      "path": "README.md",
+      "sha256": "5cabbc9e3f26997f81f22da5601b97411b1273b4e09d18fd1f798bf15e276826",
+      "bytes": 4008
+    },
+    {
+      "path": "SKILL.md",
+      "sha256": "db16f35cf79922ea901f13b047c27e7971850f80c6db46183d2aa6f9363f2701",
+      "bytes": 12091
+    },
+    {
+      "path": "assets/assumptions.csv",
+      "sha256": "55dabfc0dc9c1fda9c2d415e6be3dbf4d9bcb1405758d503ff32c3ddbb3c8ee5",
+      "bytes": 88
+    },
+    {
+      "path": "assets/charts.example.json",
+      "sha256": "0dfe79bfa116714391406e7152b184eb3a1e2487edd8339ee2b467a689432fe7",
+      "bytes": 441
+    },
+    {
+      "path": "assets/charts.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "bytes": 3
+    },
+    {
+      "path": "assets/issues.csv",
+      "sha256": "5ddc08ce76f94fac3ba9e2aafc709d94a03f20cb366c70109b5d028399af0a30",
+      "bytes": 71
+    },
+    {
+      "path": "assets/metrics.csv",
+      "sha256": "cdd8b38e814893ab5a7efbe03f091cc21d5eb3f33923977d86d1e8f82688ca26",
+      "bytes": 91
+    },
+    {
+      "path": "assets/prompts.md",
+      "sha256": "b734b3ade3aa47669a1c755770c8642ee82c35891c402e423652a0a4ac290f2a",
+      "bytes": 1704
+    },
+    {
+      "path": "assets/report-template.md",
+      "sha256": "ea952c6357f8f32f8d43bb6ea88dffcd354de6d9b8e4f8b98c2185b61435e75a",
+      "bytes": 2875
+    },
+    {
+      "path": "assets/sources.csv",
+      "sha256": "eece60e050f2b82b0f4987d7274afb09ec6920520ea234602cb2d6e2f4bfc4a5",
+      "bytes": 116
+    },
+    {
+      "path": "assets/valuation.example.json",
+      "sha256": "dc65c1098c4dcf43f8777ab1fc150c4767a00a9a07c745e111920186ebc043fb",
+      "bytes": 1086
+    },
+    {
+      "path": "examples/meituan-case-methodology.md",
+      "sha256": "6197b78b10aa5507c4b48f9b5dcd580030c23d1fd09c7d6f26e814ba5cb87a3e",
+      "bytes": 2911
+    },
+    {
+      "path": "examples/valuation.example.result.json",
+      "sha256": "d2abd3836429d0112603fb07240a6fcba2b13ff50a5432abff774a087c73c213",
+      "bytes": 2281
+    },
+    {
+      "path": "references/evidence.md",
+      "sha256": "25747badbcc8f23f5af9e657fca92f0aae63aecca38644321a18d31af148338d",
+      "bytes": 3595
+    },
+    {
+      "path": "references/financials.md",
+      "sha256": "96811de2d7be3c1889405fc734b9274c87ee8b2642d5fe1a845136716f3d493a",
+      "bytes": 4471
+    },
+    {
+      "path": "references/macro-competition.md",
+      "sha256": "6c67d8053f19b1452fbc730ccb77a07c9ed14eef3284d3cc5a8cd3c7c79290ff",
+      "bytes": 3271
+    },
+    {
+      "path": "references/quality-gates.md",
+      "sha256": "5fb92883aa99b87b14d8103d0dd9d8c5a1fa3378e7e89117b84ac289cb0de7a4",
+      "bytes": 2967
+    },
+    {
+      "path": "references/reporting.md",
+      "sha256": "1df8349b37f84ad43a51e08f3094e49f677f611e45c9a1c3941f99801bc2687e",
+      "bytes": 3643
+    },
+    {
+      "path": "references/sector-lenses.md",
+      "sha256": "7b53bc62807385933ae86a3a0a3bdd9bc940bdbea13f1eeeeb8cc90963b34972",
+      "bytes": 4265
+    },
+    {
+      "path": "references/valuation.md",
+      "sha256": "c4c2444d13d954c306b1790a2b8b3b32801a4f556189190be2d33f06a4bef0e5",
+      "bytes": 4109
+    },
+    {
+      "path": "references/xhalo-integration.md",
+      "sha256": "7583df88eeae408a3910a765507aeb1350bac8291c37e7b26888a2e9c195dc14",
+      "bytes": 2317
+    },
+    {
+      "path": "scripts/dcf_sotp.py",
+      "sha256": "070f7c755264d5bac220a1e183caf149511b16e13743baaa34a9c3e18afec20b",
+      "bytes": 6437
+    },
+    {
+      "path": "scripts/new_project.py",
+      "sha256": "81ea4d992121252e4ce2fe3480ceaa38d35f5b4e9ddaf7e2f943062821ed9699",
+      "bytes": 2370
+    },
+    {
+      "path": "scripts/render_charts.py",
+      "sha256": "4f98a174359cec05719501d8a1d4bf6dc00df33c85a557d910cd3ecbf756173a",
+      "bytes": 6888
+    },
+    {
+      "path": "scripts/self_test.py",
+      "sha256": "8b05ede34ceb58025e96bf4e163ca7560a36836bc8dfea6c5bbdff606483aba9",
+      "bytes": 2183
+    },
+    {
+      "path": "scripts/validate_research.py",
+      "sha256": "7621c767c6b49e84b079e386c62bc0d2dc19df80e99be2638a9a426a03d5d504",
+      "bytes": 8616
+    },
+    {
+      "path": "scripts/verify_install.py",
+      "sha256": "883f41e26a8d2d56189c603146ee92d11fc92be6d8311d4418cc69697cb1d8f7",
+      "bytes": 2006
+    }
+  ]
+}
