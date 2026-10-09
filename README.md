@@ -7,7 +7,7 @@
 [简体中文](README.md) · [繁體中文](README.zh-TW.md) · [日本語](README.ja.md) · [한국어](README.ko.md) · [English](README.en.md)
 
 > [!IMPORTANT]
-> 本仓库包含**完整技能目录** `listed-equity-research/`，并非仅提供 `SKILL.md`。安装时请复制整个目录，保留 `references/`、`assets/`、`scripts/`、`examples/`。它是研究辅助工具，**不会自动提供实时行情或付费投行研报**，也不提供个人化投资建议。
+> 本仓库包含**完整技能目录** `listed-equity-research/`，并非仅提供 `SKILL.md`。安装时请复制整个目录，保留 `references/`、`assets/`、`scripts/`、`examples/`。它是研究辅助工具，**不会自动提供实时行情或付费投行研报**，也不提供个人化投资建议。示例报告https://muse.xhalo.co/pages/datas/2026-10-09-meituan-sotp-dcf
 
 ## 适用场景
 
