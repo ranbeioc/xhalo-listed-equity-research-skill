@@ -1,0 +1,40 @@
+name: Skill integrity and offline tests
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  skill-qa:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ['3.9', '3.12']
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Set up plotting dependency
+        run: python -m pip install matplotlib
+      - name: Check complete skill integrity
+        run: python listed-equity-research/scripts/verify_install.py listed-equity-research
+      - name: Run deterministic offline test suite
+        run: python listed-equity-research/scripts/self_test.py
+      - name: Test clone-based installer
+        run: |
+          mkdir -p "$RUNNER_TEMP/agent-skills"
+          python scripts/install_skill.py --root "$RUNNER_TEMP/agent-skills" --test
+      - name: Validate multilingual README files
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          paths = ['README.md','README.zh-TW.md','README.ja.md','README.ko.md','README.en.md']
+          for p in paths:
+              data = Path(p).read_text(encoding='utf-8')
+              assert len(data) >= 800, f'Missing or incomplete README: {p}'
+              assert 'listed-equity-research' in data, p
+          print('PASS: five-language README validation')
+          PY
