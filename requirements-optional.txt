@@ -1,0 +1,2 @@
+# Optional dependency for PNG research charts
+matplotlib>=3.7
