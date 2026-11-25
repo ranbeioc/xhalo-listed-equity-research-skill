@@ -8,9 +8,17 @@
 
 > [!IMPORTANT]
 > 本仓库包含**完整技能目录** `listed-equity-research/`，并非仅提供 `SKILL.md`。安装时请复制整个目录，保留 `references/`、`assets/`、`scripts/`、`examples/`。它是研究辅助工具，**不会自动提供实时行情或付费投行研报**，也不提供个人化投资建议。
-真实精准预测报告https://muse.xhalo.co/pages/datas/2026-10-09-meituan-sotp-dcf
+## 真实案例：美团估值与后续行情
 
+[2026 年 10 月 9 日的美团 SOTP/DCF 研究](https://muse.xhalo.co/pages/datas/2026-10-09-meituan-sotp-dcf?lang=zh-CN)给出 **HK$61.45/股** 的基准情景内在价值。47 个自然日后，美团-W（3690.HK）在 2026 年 11 月 25 日收盘也报 **HK$61.45**（[历史行情](https://ca.investing.com/equities/meituan-dianping-historical-data)）。这是便于复核的真实案例，不是对特定日期的股价预测或模型准确率证明；原报告将模型标为 `screen-grade`。
 
+**图 1｜原报告：报告日期、模型估值与适用限制。**
+
+<a href="docs/images/meituan-original-report.jpg"><img src="docs/images/meituan-original-report.jpg" width="720" alt="2026 年 10 月 9 日美团原报告：HK$61.45/股，不是经独立验证的精确目标价"></a>
+
+**图 2｜行情快照：11 月 25 日收盘价 HK$61.45。** 图中 −14.77% 对应选中的十年视图，并非当日涨跌幅。
+
+<a href="docs/images/meituan-market-2026-11-25.jpg"><img src="docs/images/meituan-market-2026-11-25.jpg" width="480" alt="美团-W 3690.HK 行情截图，显示 HK$61.45，图表选中十年期间"></a>
 
 ## 适用场景
 
