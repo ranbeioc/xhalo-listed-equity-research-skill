@@ -9,7 +9,7 @@
 > [!IMPORTANT]
 > 本仓库包含**完整技能目录** `listed-equity-research/`，并非仅提供 `SKILL.md`。安装时请复制整个目录，保留 `references/`、`assets/`、`scripts/`、`examples/`。它是研究辅助工具，**不会自动提供实时行情或付费投行研报**，也不提供个人化投资建议。
 真实精准预测报告https://muse.xhalo.co/pages/datas/2026-10-09-meituan-sotp-dcf
-> ![Uploading 98da3b87d0ce7203e0a02341b5370273.jpg…]()
+
 
 
 ## 适用场景
